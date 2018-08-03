@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+  background-color: #C5C6C8;
+}
+
+body {
+  margin: auto;
+  background-color: white;
+  width: 60%;
+}
+
+.site-logo {
+  background: #0D3E75	;
+  color: white;
+  height: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 2px solid #77D6EB;
+}
+
+.search{
+  background-color: #C5C6C8;
+  box-sizing: border-box; 
+  position: relative;
+}
+
+.container {
+  line-height: 2;
+  padding: 25px 25px;
+  background-color: white;
+  margin: auto;
+  height: auto;
+}
+
+.search__choice {
+  background-color: #C5C6C8;
+  display: inline-block;
+  vertical-align: text-top; 
+}
+
+/* .animal__traits {
+  justify-content: space-around;
+} */
+
+label {
+  display: block;
+  background-color: #C5C6C8;
+/*   width: 100%; */
+  position: relative;
+}
+
+type {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+img {
+  height: 200px;
+  max-width: 95%;
+  padding-top: 10px;
+}
+
+.animal {
+  height: 350px;
+  max-width: 32%;
+  float: left;
+  padding: 0px;
+  border: 2px solid gray;
+}
+
+.animal__trait {
+  background-color: #07A5E1;
+  border-radius: 10px;
+  padding: 2px 5px;
+  margin: 2px 0;
+}
+
+.animal__name {
+  font-weight: bold;
+}
+
+.footer {
+  clear: both;
+}
+
+.footer__block {
+  float: left;
+  width: 33.3%;
+  height: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  vertical-align: middle;
+/*   position: relative; */
+}
+
+.footer__block--donate {
+  background: linear-gradient(rgba(175, 128, 251, 0.65),rgba(175, 128, 251, 0.65)),
+            no-repeat center/cover url('https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fdonate.jpg?1524172864137');
+  text-align: center;
+}
+
+.footer__block--volunteer {
+  background: linear-gradient(rgba(175, 128, 251, 0.65),rgba(175, 128, 251, 0.65)),
+            no-repeat center/cover url('https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fvolunteer.jpg?1524172863718');
+  text-align: center;
+}
+
+.footer__block--location{
+background: linear-gradient(rgba(175, 128, 251, 0.65),rgba(175, 128, 251, 0.65)),
+            no-repeat center/cover url('https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Flocation.png?1524172864805');
+  text-align: center;
+}
+  
+  
+.footer__block a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;  
+}

@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #FCF7F8;
+  color: #0A090C;
+  max-width:1024px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.nav {
+  text-align: center;
+  font-weight: bold;
+  font-variant: small-caps;
+  display: block;
+  border: solid; 
+}
+
+nav a {
+  padding: 175px;
+}
+
+.title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  background-color: #C6BEC3;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.store-image {
+  width: 500px;
+  border-width: 10px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 25%;
+}
+
+.plant-image {
+  height: 200px;
+}
+
+.home {
+/*   background: url(https://freedesignfile.com/upload/2015/12/Purple-floral-dream-background-vector-02.jpg); */
+  background-color: #D3855A;
+  color: #F2F3F3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 300px;
+}
+
+.stock{
+  background-color: #487BCA;
+  color: #242424;
+/*   background: url(http://www.photos-public-domain.com/wp-content/uploads/2012/06/peach-colored-fabric-with-floral-pattern-texture.jpg); */
+}
+
+.hours{
+/*   background: url(http://www.vectorfree.com/media/vectors/free-green-floral-background.jpg);  */
+  ;background-color: #EF89C7;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #F2F3F3;
+  padding-bottom: 400px;
+
+}
+
+.hours-text {
+color: #F2F3F3;
+}
+
+a {
+	text-decoration: none;
+	color: #343435;
+}
+
+a:hover{
+	color: #50FFCF;
+  text-decoration: underline;
+}
+
+a:active{
+  color: #971BE8;
+}
